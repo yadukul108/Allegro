@@ -14,6 +14,7 @@ import Newsletter from './pages/Newsletter';
 import Newsdetail
  from './components/Newsdetail';
 import Investment from './pages/Investment';
+import Strategic from './pages/Strategic';
 const App = () => {
   return (
      <BrowserRouter>
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/news/:slug" element={<Newsdetail />} />
         <Route path='/transactions' element={<Transactions />} />
          <Route path="/transaction/:id" element={<TransactionDetail />} />
+         <Route path='/strategic-advisory' element={<Strategic/>}/>
         <Route path='/investment' element={<Investment/>}/>
         <Route path='/careers' element={<Careers />} />
         <Route path="/teams" element={<Team/>}/>

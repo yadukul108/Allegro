@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { ChartNoAxesCombined, ChevronDown, Menu, X } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
-import IB from "../assets/IB.jpeg";
+
 
 const sidebarMenus = [
   {
@@ -178,7 +178,7 @@ const Navbar = () => {
             <h3 className="text-lg font-semibold mb-4 text-gray-900">Advisory</h3>
             <ul className="space-y-2">
               <li><Link to="/investment" className=" text-slate-700 hover:text-red-600">Investment Banking</Link></li>
-              <li><Link to="/services/strategy" className=" text-slate-700 hover:text-red-600">Strategic Advisory</Link></li>
+              <li><Link to="/strategic-advisory" className=" text-slate-700 hover:text-red-600">Strategic Advisory</Link></li>
             </ul>
           </div>
 

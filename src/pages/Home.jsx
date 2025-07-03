@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 //import About from "./About"
 const Home = () => {
   return (
-   <div className="relative w-full pt-[3rem] h-[500px] bg-slate-200" >
+   <div className="relative w-full pt-[3rem] h-[500px] bg-slate-200 " >
       {/* Background Image */}
       <img
         src={HomeIB}
